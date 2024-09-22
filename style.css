@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+
+
+img{
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   margin-top: 40px;
+}
+
+
+.name{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 300px;
+    height: 600px;
+    border-radius: 6px;
+    margin-left: 600px;
+
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100%;
+    }
+}
+
+.ms{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.chennai{
+    color: hsl(75, 94%, 57%);
+    position: relative;
+    bottom: 30px;
+}
+
+.front{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 30px;
+}
+
+.github{
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+}
+
+.mentor{
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 40px; 
+}
+
+.link{
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px; 
+}
+
+.twitter{
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 60px;
+}
+
+.insta{
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 70px;
+}
